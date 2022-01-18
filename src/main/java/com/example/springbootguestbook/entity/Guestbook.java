@@ -1,3 +1,5 @@
+package com.example.springbootguestbook.entity;
+
 import lombok.*;
 
 import javax.persistence.*;
