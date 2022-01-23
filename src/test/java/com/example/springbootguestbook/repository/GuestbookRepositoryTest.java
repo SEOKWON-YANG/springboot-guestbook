@@ -97,6 +97,10 @@ class GuestbookRepositoryTest {
         builder.and(qGuestbook.gno.gt(0L));  // 3--
 
         Page<Guestbook> result = guestbookRepository.findAll(builder, pageable);
+
+        result.stream().forEach(guestbook -> {
+            System.out.println(guestbook);
+        });
         
     }
 }
