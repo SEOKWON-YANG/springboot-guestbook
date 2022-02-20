@@ -1,7 +1,7 @@
-package com.example.springbootguestbook.repository;
+package com.example.springbookguestbook.repository;
 
-import com.example.springbootguestbook.entity.Guestbook;
-import com.example.springbootguestbook.entity.QGuestbook;
+import com.example.springbookguestbook.entity.Guestbook;
+import com.example.springbookguestbook.entity.QGuestbook;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import org.junit.jupiter.api.Test;
@@ -14,8 +14,6 @@ import org.springframework.data.domain.Sort;
 
 import java.util.Optional;
 import java.util.stream.IntStream;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class GuestbookRepositoryTest {

@@ -1,4 +1,4 @@
-package com.example.springbootguestbook;
+package com.example.springbookguestbook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

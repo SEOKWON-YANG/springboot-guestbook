@@ -1,6 +1,6 @@
-package com.example.springbootguestbook.repository;
+package com.example.springbookguestbook.repository;
 
-import com.example.springbootguestbook.entity.Guestbook;
+import com.example.springbookguestbook.entity.Guestbook;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 

@@ -1,4 +1,4 @@
-package com.example.springbootguestbook.dto;
+package com.example.springbookguestbook.dto;
 
 import lombok.Data;
 import org.springframework.data.domain.Page;

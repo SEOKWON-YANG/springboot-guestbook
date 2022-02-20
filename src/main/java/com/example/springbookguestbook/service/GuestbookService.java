@@ -1,9 +1,9 @@
-package com.example.springbootguestbook.service;
+package com.example.springbookguestbook.service;
 
-import com.example.springbootguestbook.dto.GuestbookDTO;
-import com.example.springbootguestbook.dto.PageRequestDTO;
-import com.example.springbootguestbook.dto.PageResultDTO;
-import com.example.springbootguestbook.entity.Guestbook;
+import com.example.springbookguestbook.dto.GuestbookDTO;
+import com.example.springbookguestbook.dto.PageRequestDTO;
+import com.example.springbookguestbook.dto.PageResultDTO;
+import com.example.springbookguestbook.entity.Guestbook;
 
 public interface GuestbookService {
     Long register(GuestbookDTO dto);

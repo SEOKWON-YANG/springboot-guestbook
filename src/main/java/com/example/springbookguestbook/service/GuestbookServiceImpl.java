@@ -1,10 +1,10 @@
-package com.example.springbootguestbook.service;
+package com.example.springbookguestbook.service;
 
-import com.example.springbootguestbook.dto.GuestbookDTO;
-import com.example.springbootguestbook.dto.PageRequestDTO;
-import com.example.springbootguestbook.dto.PageResultDTO;
-import com.example.springbootguestbook.entity.Guestbook;
-import com.example.springbootguestbook.repository.GuestbookRepository;
+import com.example.springbookguestbook.dto.GuestbookDTO;
+import com.example.springbookguestbook.dto.PageRequestDTO;
+import com.example.springbookguestbook.dto.PageResultDTO;
+import com.example.springbookguestbook.entity.Guestbook;
+import com.example.springbookguestbook.repository.GuestbookRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.data.domain.Page;

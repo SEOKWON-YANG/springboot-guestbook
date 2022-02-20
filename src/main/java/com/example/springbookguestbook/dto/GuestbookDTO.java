@@ -1,4 +1,4 @@
-package com.example.springbootguestbook.dto;
+package com.example.springbookguestbook.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

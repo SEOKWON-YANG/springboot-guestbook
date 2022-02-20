@@ -1,4 +1,4 @@
-package com.example.springbootguestbook;
+package com.example.springbookguestbook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

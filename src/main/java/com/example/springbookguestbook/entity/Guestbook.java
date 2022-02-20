@@ -1,4 +1,4 @@
-package com.example.springbootguestbook.entity;
+package com.example.springbookguestbook.entity;
 
 import lombok.*;
 
