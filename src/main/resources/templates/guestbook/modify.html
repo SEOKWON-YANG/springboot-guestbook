@@ -6,6 +6,10 @@
         <h1>GuestBook Modify Page</h1>
 
         <form th:action="@{/guestbook/modify}" th:method="post">
+
+            <!-- 페이지 번호 -->
+            <input type="hidden" name="page" th:value="${requestDTO.page}">
+            
             <div class="form-group">
                 <label >Gno</label>
                 <input type="text" class="form-control" name="gno" th:value="${dto.gno}" readonly>
