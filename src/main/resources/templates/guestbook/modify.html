@@ -54,6 +54,18 @@
 
                 actionForm.submit();
             });
+
+            $(".modifyBtn").click(function(){
+
+                if(!confirm("수정하시겠습니까?")){
+                    return;
+                }
+
+                actionForm
+                .attr("action", "/guestbook/modify")
+                .attr("method", "post")
+                .submit();
+            })
         </script>
 
     </th:block>
