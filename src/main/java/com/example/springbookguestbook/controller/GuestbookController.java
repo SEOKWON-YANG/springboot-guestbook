@@ -67,9 +67,7 @@ public class GuestbookController {
         log.info("gno: " + gno);
 
         service.remove(gno);
-
         redirectAttributes.addFlashAttribute("msg", gno);
-
         return "redirect:/guestbook/list";
     }
 
@@ -78,7 +76,6 @@ public class GuestbookController {
 
         log.info("post modify....");
         log.info("dto: " + dto);
-
         service.modify(dto);
 
         redirectAttributes.addAttribute("page", requestDTO.getPage());
